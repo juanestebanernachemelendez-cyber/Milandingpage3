@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="IMG-20250826-WA0060.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Juan Ernache</h1>
+            <p class="profile-summary">
+                Soy un estudiante recién graduado de bachillerato con formación técnica en Auxiliar Administrativo. Me destaco por mi capacidad para trabajar en equipo, mantener una buena convivencia y organizar tareas de manera estratégica. Mi objetivo es continuar mis estudios para alcanzar un nivel profesional en el área administrativa y seguir creciendo en esta carrera.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:Juan E.">juanestebanernachemelendez@gamil.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573207251105" target="_blank" rel="noopener noreferrer">+57 3207251105</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Bachillerato</h4>
+                    <p>Bachiller, institucion educativa Casd 2025</p>
+                    <P></P>
+                </li>
+                <li>
+                    <h4>auxiliar administrativo| SENA</h4>
+                    <p>Auxiliar administrativo| Año de Finalización: 2025</p>
+                    <p>Descripción: Formación en procesos administrativos, manejo de documentos, atención al cliente y apoyo en planeación de tareas.</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Practicas tecnicas SENA</h4>
+                    <p>Febrero 2025 - octubre 2025 <br>Descripción: Experiencia obtenida durante la etapa productiva del programa técnico.Apoyo en procesos administrativos, organización de documentos y planeación de actividades..</p>
+                </li>
+                <li>
+                    <h4></h4>
+                    <p> <br></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>word ( nivel medio )</li>
+                    <li>Excel ( basico)</li>
+                    <li> Acces ( basico)</li>
+                    <li>plataformas basicas de diseño</li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en Equipo</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Comunicación Efectiva</li>
+                    <li>Organizacion efectiva</li>
+                    <li>responsabilidad y compromiso</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="IMG-20250826-WA0060.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.instagram.com/stestebann?igsh=MTg3bnBiZGExeHJ3Nw==" target="_blank" class="linktree-link"><strong>Instagram</strong></a>
+            <a href="https://www.tiktok.com/@stesteban?_t=ZS-8zDZaYm6yX9&_r=1" target="_blank" class="linktree-link"><strong>Tik Tok</strong></a>
+            <a href="URL_PORTAFOLIO" target="_blank" class="linktree-link"><strong>Portafolio</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Elias Vance <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
